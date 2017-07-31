@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<meta name="description" content="Создание адаптивного сайта" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<style>
+	*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border:red 3px solid
+}
+body input:required:valid,
+body textarea:required:valid {
+	border: green 3px solid
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 130%;
+	background: url(https://inktankengine.files.wordpress.com/2015/02/launch_shot02_v4-0-00-04-10.png) no-repeat; 
+	background-size: 100%;
+}
+
+.logo{
+   color: white;
+   font-size:1em;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.top-buttons a {
+   text-decoration: underline;
+   padding: 0.9em;
+   color: white;
+   float: right;
+   margin-bottom: 10%;
+}
+.top-buttons a:hover{
+   text-decoration: none;
+}
+.header{
+
+}
+.para{
+color: gray;
+}
+
+.prosto{
+	color: black;
+	padding-left: 27.5%;
+	background-color: white;
+	font-size: 20px;
+	padding-top: 3%;
+}
+.logo_1{
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+}
+.prosto_text{
+	text-align: left;
+	color: gray;
+	margin-bottom: 5%;
+}
+.button{
+	display: block;
+	border: medium none;
+	background-color: black;
+	color: white;
+	border-radius: 40px;
+	padding: 10px 20px;
+	margin-right: 40px;
+	margin-left: -40px;
+}
+.button_2{
+	display: block;
+	border-color: black;
+	border-width: 2px;
+	background-color: white;
+	color: black;
+	border-radius: 40px;
+	padding: 10px 20px;
+}
+.prosto ul{
+	list-style-type: none;
+}
+.prosto ul li 
+{
+	display: inline-block;
+}
+.image{
+	width: 48%;
+	display: inline-block;
+}
+.block-imgs{
+	text-align: center;
+}
+.download_more{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	font-size: 20px;
+	margin-top: 0px;
+	width: 100%;
+	border: none;
+}
+.contact{
+	background-color: #505050;
+	color: gray;
+	font-size: 30px;
+}
+.contact input{
+	border-width: 1px;
+	border-color: white;
+	border-radius: 40px;
+	padding: 3px 3px;
+	margin-bottom: 19px;
+}
+.contact textarea{
+	border-width: 1px;
+	border-color: white;
+	border-radius: 30px;
+	padding: 40px 10px;
+}
+.contact ul{
+	list-style-type: none;
+}
+.kontakty{
+	color: #fff;
+	font-size: 30px;
+}
+.obratnaya-svayz{
+	color: white;
+	margin-top: 10px;
+	font-size: 50px;
+	padding-left: 150px;
+}
+.button_3{
+	display: block;
+	border-color: white;
+	border-width: 2px;
+	background-color: #505050;
+	color: white;
+	border-radius: 40px;
+	padding: 10px 20px;
+	margin-left: 50%;
+}
+
+
+	</style>
+
+<body>
+	<div class="container">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="top-buttons">
+					<p><a href="#">Обратная связь</a></p>
+					<p><a href="#">Портфолио</a></p>
+					<p><a href="#">Обо мне</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="logo">
+			<a class="logo_1">TIMOFEY<br> 
+			KONTANISTOV</a>
+			<h3 class="para">UI/UX DISIGNER</h3>
+	    </div>
+
+		<div class="col-md-12">
+			<div class="row">
+				<div class="prosto">
+				<h1><strong>Простота и удобство решений</strong></h1>
+				<p class="prosto_text">Миссия Coalla Agency - помочь клиентам решать спектр<br>
+				 					   бизнесс-задач, полагаясь на 10-летний опыт в стратегии,<br> 
+									   юзабилити, дизайне и написании кода. Мы создаем сайты,<br> 
+									 сложные сервисы, мобильные приложения и яркий<br> 
+									   брендинг, отвечающий последним трендам и стандартам.</p>
+				<ul>
+					<li><button class="button">Портфолио в PDF (5мб)</button></li>
+					<li><button class="button_2">Обратная Связь</button></li>
+				</ul>
+			     																			
+				</div>
+			</div>
+		
+</div>
+
+
+<div class="container">
+	<img class="image" src="img1.jpg">
+	<img class="image" src="img2.jpg">
+</div>
+<div class="container">
+	<img class="image" src="img3.jpg">
+	<img class="image" src="img4.jpg">
+</div>
+<div class="container">
+	<img class="image" src="img5.jpg">
+	<img class="image" src="img6.jpg">
+</div>
+	<div class="col-md-12">
+		<div class="row">
+			<div class="zagruzit">
+				<button class="download_more">ЗАГРУЗИТЬ ЕЩЁ <i class="fa fa-long-arrow-down"></i></button>
+			</div>
+		</div>
+	</div>
+<div class="contact">	
+	<h1 class="obratnaya-svayz">Обратная связь</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+	<ul>
+		<li><p>Как вас зовут?</p></li>
+		<li><p>Телефон</p></li>
+		<li><p>E-mail</p></li>
+		<li><p>Что вас<br>интересует?</p></li>
+	</ul>
+			</div>
+			<div class="col-sm-4">	
+	<ul>
+		<li><input type="text" name="Ваше имя"></li>
+		<li><input type="text" name="Ваш телефон"></li>
+		<li><input type="text" name="Ваш E-mail"></li>
+		<li><textarea rows="5"></textarea></li>
+	</ul>
+			</div>
+			<div class="col-sm-4">
+	<ul>
+		<li><strong><h4 class="kontakty">Контакты</h4></strong></li>
+		<li><p>+7 (926) 614 11 81</p></li>
+		<li><p>kontanistov@mail.com</p></li>
+	</ul>
+			</div>
+		</div>
+		<button class="button_3">Оправить</button>
+	</div>
+</div>	
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/countdown/jquery.plugin.js"></script>
+	<script src="libs/countdown/jquery.countdown.min.js"></script>
+	<script src="libs/countdown/jquery.countdown-ru.js"></script>
+	<script src="libs/landing-nav/navigation.js"></script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter25346996 = new Ya.Metrika({id:25346996, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/25346996" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

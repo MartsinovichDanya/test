@@ -1,0 +1,37 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border:red 3px solid
+}
+body input:required:valid,
+body textarea:required:valid {
+	border: green 3px solid
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+.top-buttons a{
+   text-decoration: underline;
+   padding-right: 30px;
+   color: white;
+}
+.header{
+	background-image: src(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_8GpqJBHvJTk7GDMHpmk0nWugq-7UcIk4VQYlL2GwTZgDr-c3KA);
+}
