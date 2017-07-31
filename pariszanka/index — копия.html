@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<meta name="description" content="Создание адаптивного сайта" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+	<link rel="stylesheet" href="css/fonts pariszanka.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<style>
+	*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body {
+	background-color: #d7dad9;
+}
+.header{
+	font-family: IsadoraBold;
+	text-align: center;
+	font-size: 30px;
+	}
+
+
+.header h2{
+	text-align: center;
+	margin-top: -48px;
+	font-size: 28px;
+}
+
+.soc-buttons a:hover {
+	color: #00ffbf;
+}
+.top_line{
+	background-color: gray;
+	color: white;
+}
+.top_contact{
+	float: left;
+}
+.top_social{
+	float: right;
+}
+.top_social ul li{
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: center;
+	padding-right: 40px;
+}
+.image{
+	width: 100%;
+	height: auto;
+}
+.top_social a{
+	color: white;
+}
+.top_social a:hover{
+	color: #78B0AE;
+}
+.info_button{
+	background-color: transparent;
+	margin-top: 20px;
+	border: none;
+	display: block none;
+}
+.price{
+	font-size: 25px;
+	font-family: AleksandraCRegular;
+	border-top: solid 5px white;
+}
+.master{
+	font-family: AleksandraCRegular;
+	font-size: 25px;
+	border-top: solid 5px white;
+}
+.master ul li img{
+	width: 40%;
+	height: auto;
+	border: 1px solid black;
+}
+.master ul{
+	list-style-type: none;
+}
+.master ul li{
+	margin-bottom: 20px;
+}
+.obr-zvonok form input{
+	border: 1px green solid;
+	border-radius: 40px;
+	padding: 10px 20px;
+	margin-top: 20px;
+}
+.obr-zvonok form button{
+	margin-top: 20px;
+}
+.obr-zvonok{
+	border-top: solid 5px white;
+}
+.button{
+	border-radius: 40px;
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	padding: 10px 20px;
+}
+.akcia{
+	font-size: 50px;
+	font-family: AleksandraCRegular;
+	color: red;
+	border-top: solid 5px white;
+}
+
+	</style>
+
+
+<body>
+<div class="top_line">
+	<div class="container">
+		<div class="col-md-12">
+			<div class="row">
+			 <ul class="hidden-md hidden-lg hidden-xl">
+			 	<li><h3><i class="fa fa-mobile-phone"></i> 8 (920) 893 60 63</h3></li>
+			 	<li><h3><i class="fa fa-map-marker"></i> Обнинск, пр.Маркса, 8 (вход со двора)</h3></li>
+			 </ul>
+				<div class="top_contact hidden-sm hidden-xs">
+					<h3><i class="fa fa-mobile-phone"></i> 8 (920) 893 60 63</h3>
+				</div>
+				<div class="top_social">
+					<ul>
+						<li><a href="#"><i class="fa fa-vk fa-2x"></i></a></li>
+						<li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+					</ul>
+				</div>
+				<center><div class="top_address hidden-sm hidden-xs">
+					<h3><i class="fa fa-map-marker"></i> Обнинск, пр.Маркса, 8 (вход со двора)</h3>
+				</div></center>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="header">
+	<div class="container">
+		<div class="col-md-12">
+			<div class="row">
+				<h1><strong>Парижанка</strong></h1>
+				<h2>(салон-студия)</h2>
+			</div>
+		</div>
+		<img class="image" src="paris.jpg">
+	</div>
+</div>
+<div class="container">
+        <div class="row">
+            <div class="col-md-6">
+            	<h1>Заказать обратный звонок</h1>
+            	<div class="obr-zvonok">
+            		<form id="collback">
+            			<input type="text" name="name" placeholder="Ваше Имя"><br>
+            			<input type="text" name="phone" placeholder="Ваш телефон"><br>
+            			<button class="button">Заказать</button>
+            		</form>
+            	</div>
+            </div>
+            <div class="col-md-6">
+            	<h1>Акция!</h1>
+            	<div class="akcia">
+            		<p>скидка на ВСЕ <u>50%</u></p>
+            	</div>
+            </div>
+        </div>
+    </div>
+    <div class="page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                  <h1>Прайс-лист</h1>
+                	<div class="price">
+                    <ol>
+                        <li>окрашивание - 120р</li>
+                        <li>стрижка - 200р</li>
+                        <li>окрашивание - 120р</li>
+                        <li>стрижка - 200р</li>
+                        <li>окрашивание - 120р</li>
+                        <li>стрижка - 200р</li>
+                        <li>окрашивание - 120р</li>
+                        <li>стрижка - 200р<br></li>
+
+                    </ol>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                <h1>Мастера</h1>
+                <div class="master">
+                    <ul>
+                    	<li><img src="photo1.jpg"><strong>  Маша (стилист)</strong></li>                   	
+                    	<li><img src="photo3.jpg"><strong>  Даша (старший стилист)</strong></li>
+                    	<li><img src="photo2.jpg"><strong>  Глаша (стажёр)</strong></li>
+                    </ul>
+                </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+<div class="top_line">
+	<div class="container">
+		<div class="col-md-12">
+			<div class="row">
+			 <ul class="hidden-md hidden-lg hidden-xl">
+			 	<li><h3><i class="fa fa-mobile-phone"></i> 8 (920) 893 60 63</h3></li>
+			 	<li><h3><i class="fa fa-map-marker"></i> Обнинск, пр.Маркса, 8 (вход со двора)</h3></li>
+			 </ul>
+				<div class="top_contact hidden-sm hidden-xs">
+					<h3><i class="fa fa-mobile-phone"></i> 8 (920) 893 60 63</h3>
+				</div>
+				<div class="top_social">
+					<ul>
+						<li><a href="#"><i class="fa fa-vk fa-2x"></i></a></li>
+						<li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+					</ul>
+				</div>
+				<center><div class="top_address hidden-sm hidden-xs">
+					<h3><i class="fa fa-map-marker"></i> Обнинск, пр.Маркса, 8 (вход со двора)</h3>
+				</div></center>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/countdown/jquery.plugin.js"></script>
+	<script src="libs/countdown/jquery.countdown.min.js"></script>
+	<script src="libs/countdown/jquery.countdown-ru.js"></script>
+	<script src="libs/landing-nav/navigation.js"></script>
+	<script src="js/common-pariszanka.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<!-- Yandex.Metrika counter --><!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter25346996 = new Ya.Metrika({id:25346996, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/25346996" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
